@@ -56,3 +56,5 @@ hs_err_pid*
 /.mvn/wrapper/
 /mvnw
 /mvnw.cmd
+/h2db.mv.db
+/h2db.trace.db
