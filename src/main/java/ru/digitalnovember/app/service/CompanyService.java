@@ -21,7 +21,7 @@ public class CompanyService {
 
     private final CompanyDAO dao;
 
-    public void initCompany() throws IOException {
+    public void initCompanies() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         String str = FileUtils.readFileToString(new File("companies.json"), StandardCharsets.UTF_8);
         List<Company> companies = mapper.readValue(str, new TypeReference<List<Company>>(){});

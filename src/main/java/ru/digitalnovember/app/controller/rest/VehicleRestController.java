@@ -4,20 +4,20 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.digitalnovember.app.model.Company;
-import ru.digitalnovember.app.service.CompanyService;
+import ru.digitalnovember.app.model.Vehicle;
+import ru.digitalnovember.app.service.VehicleService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/companies")
+@RequestMapping("/api/vehicles")
 @RequiredArgsConstructor
-public class CompanyRestController {
+public class VehicleRestController {
 
-    private final CompanyService companyService;
+    private final VehicleService vehicleService;
 
     @GetMapping("/")
-    public List<Company> getAll(){
-        return companyService.getAll();
+    public List<Vehicle> getAll(){
+        return vehicleService.getAll();
     }
 }
