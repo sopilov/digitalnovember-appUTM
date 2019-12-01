@@ -11,7 +11,6 @@ async function getCompanies() {
 
 getCompanies()
 .then(response => {
-    console.log(response);
     updateCompanies(response);
 });
 
