@@ -2,10 +2,8 @@ package ru.digitalnovember.app.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.digitalnovember.app.model.Vehicle;
+import ru.digitalnovember.app.model.Operation;
 
 @Repository
-public interface VehicleDAO extends JpaRepository<Vehicle, Long> {
-
-    Vehicle findByShortName(String shortName);
+public interface OperationDAO extends JpaRepository<Operation, Long> {
 }

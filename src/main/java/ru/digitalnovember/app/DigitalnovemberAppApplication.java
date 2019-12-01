@@ -15,7 +15,7 @@ public class DigitalnovemberAppApplication {
     }
 
     @Bean(initMethod = "init")
-    public InitData initTestData() {
+    public InitData initialData() {
         return new InitData();
     }
 }

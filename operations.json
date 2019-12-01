@@ -1,0 +1,121 @@
+[
+  {
+    "operationName": "Антипрометание",
+    "elements": "Проезжая часть",
+    "season": "Зима",
+    "workingMethod": "Централизованно",
+    "cleaningMethod": "Механизированный",
+    "conditions": "Зимний период",
+    "operationsCountPerDay": 0,
+    "checkType": "Протяженность по лотку",
+    "objects": "ОДХ",
+    "vehicles": [
+      {
+        "shortName": "ДКМ (ПМ+ПЩ)"
+      },
+      {
+        "shortName": "ДКМ (ПМ+ПЩ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ПУ+ПЩ)"
+      },
+      {
+        "shortName": "ДКМ (ПЩ+ТР)"
+      }
+    ]
+  },
+  {
+    "operationName": "Выборочная обработка жидкими ПГМ",
+    "elements": "Проезжая часть",
+    "season": "Зима",
+    "workingMethod": "Местно, Централизованно",
+    "cleaningMethod": "Механизированный",
+    "conditions": "Зимний период",
+    "operationsCountPerDay": 0,
+    "checkType": "Чекин",
+    "objects": "ОДХ",
+    "vehicles": [
+      {
+        "shortName": "ДКМ (ПМ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ПМ+ПЩ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ТР+ЖР)"
+      }
+    ]
+  },
+  {
+    "operationName": "Выборочное подметание",
+    "elements": "Проезжая часть",
+    "season": "Зима",
+    "workingMethod": "Дополнительно централизованно, Местно",
+    "cleaningMethod": "Механизированный",
+    "conditions": "Зимний период",
+    "operationsCountPerDay": 0,
+    "checkType": "Чекин",
+    "objects": "ОДХ",
+    "vehicles": [
+      {
+        "shortName": "ДКМ (ПМ+ПЩ)"
+      },
+      {
+        "shortName": "ДКМ (ПМ+ПЩ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ПУ+ПЩ)"
+      },
+      {
+        "shortName": "ДКМ (ПЩ+ТР)"
+      }
+    ]
+  },
+  {
+    "operationName": "Сплошная обработка жидкими ПГМ",
+    "elements": "Проезжая часть",
+    "season": "Зима",
+    "workingMethod": "Централизованно",
+    "cleaningMethod": "Механизированный",
+    "conditions": "Зимний период",
+    "operationsCountPerDay": 0,
+    "checkType": "Площадь ПЧ",
+    "objects": "ОДХ",
+    "vehicles": [
+      {
+        "shortName": "ДКМ (ПМ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ПМ+ПЩ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ТР+ЖР)"
+      }
+    ]
+  },
+  {
+    "operationName": "Сплошное подметание",
+    "elements": "Проезжая часть",
+    "season": "Зима",
+    "workingMethod": "Местно, Централизованно",
+    "cleaningMethod": "Механизированный",
+    "conditions": "Зимний период",
+    "operationsCountPerDay": 0,
+    "checkType": "Площадь ПЧ",
+    "objects": "ОДХ",
+    "vehicles": [
+      {
+        "shortName": "ДКМ (ПМ+ПЩ)"
+      },
+      {
+        "shortName": "ДКМ (ПМ+ПЩ+ЖР)"
+      },
+      {
+        "shortName": "ДКМ (ПУ+ПЩ)"
+      },
+      {
+        "shortName": "ДКМ (ПЩ+ТР)"
+      }
+    ]
+  }
+]
