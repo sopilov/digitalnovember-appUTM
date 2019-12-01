@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CoreUI CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
+
+    <title>Hello, world!</title>
+</head>
+<body class="app">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, Bootstrap, then CoreUI  -->
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.min.js"></script>
+
+
+<noscript>
+    <strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div data-v-4686fdc4="" class="c-app">
+    <div data-v-4686fdc4="" class="c-wrapper">
+        <header data-v-4686fdc4="" class="c-header c-header-light c-header-fixed c-header-with-subheader" light="">
+            <div class="c-subheader mr">
+                <nav class="navbar navbar-dark bg-primary navbar-expand-sm" style="width: 100%;">
+                    <div class="navbar-collapse">
+                        <form class=""
+                              style="display: flex; width: 1000px; align-items: center; justify-content: space-around;">
+                            <div role="group" class="form-group" style="width: 250px; margin: 0px;"><!----><select
+                                    id="_safe_id_setylqwuemp" class="form-control">
+                                <option value="" selected="selected" disabled="disabled" hidden="hidden"> Сезон
+                                </option>
+                                <option data-key="0" value="Лето"> Лето</option>
+                                <option data-key="1" value="Зима"> Зима</option>
+                                <option data-key="2" value="Всесезон"> Всесезон</option>
+                            </select><!----><!----><!----><!----></div>
+                            <div role="group" class="form-group" style="width: 250px; margin: 0px;"><!----><select
+                                    id="_safe_id_3hffjjfjh37" class="form-control">
+                                <option value="" selected="selected" disabled="disabled" hidden="hidden"> Условия</option>
+                                <option data-key="0" value="Зимний период"> Зимний период</option>
+                                <option data-key="1" value="Зимний период"> Зимний период: - снегопад (осадки снег)</option>
+                                <option data-key="2" value="Зимний период"> Зимний период: - при прогнозе снегопада (осадки снег, более 5см)</option>
+                                <option data-key="3" value="Зимний период"> Зимний период: - 24 часа после окончания снегопада (осадки снег)</option>
+                                <option data-key="4" value="Зимний период"> Зимний период: - Зимний период: 1) период до наступления первого снегопада (осадки снег); 2) 10-й день после снегопада (осадки снег)</option>
+                            </select><!----><!----><!----><!----></div>
+                            <div role="group" class="form-group" style="width: 250px; margin: 0px;"><!----><select
+                                    id="_safe_id_21l2qfaeaae" class="form-control">
+                                <option value="" selected="selected" disabled="disabled" hidden="hidden"> Предприятие
+                                </option>
+                                <option data-key="0" value="Предприятие №1"> Предприятие №1</option>
+                                <option data-key="1" value="Предприятие №2"> Предприятие №2</option>
+                            </select><!----><!----><!----><!----></div>
+                            <button type="button" class="btn btn-success btn-block" style="width: 170px;">Пересчитать
+                                модель
+                            </button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div data-v-4686fdc4="" class="c-body">
+            <main data-v-4686fdc4="" class="c-main">
+                <div data-v-4686fdc4="" class="container-fluid">
+                    <div data-v-4686fdc4="">
+                        <div class="header"><h1>Название предприятия</h1></div>
+                        <div class="card-group mb-4">
+                            <div class="card">
+                                <div class="card-body"><!---->
+                                    <div class="h4 mb-0">87.500</div>
+                                    <small class="text-muted text-uppercase font-weight-bold"> Объем выполненного плана
+                                        (таймбар) </small>
+                                    <div class="progress progress-xs my-3 mb-0">
+                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"
+                                             class="progress-bar bg-success" style="width: 25%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body"><!---->
+                                    <div class="h4 mb-0">385</div>
+                                    <small class="text-muted text-uppercase font-weight-bold"> Время план/факт </small>
+                                    <div class="progress progress-xs my-3 mb-0">
+                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"
+                                             class="progress-bar bg-primary" style="width: 25%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body"><!---->
+                                    <div class="h4 mb-0">1238</div>
+                                    <small class="text-muted text-uppercase font-weight-bold"> Общее кол-во
+                                        алармов </small>
+                                    <div class="progress progress-xs my-3 mb-0">
+                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"
+                                             class="progress-bar bg-info" style="width: 25%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body"><!---->
+                                    <div class="h4 mb-0">28%</div>
+                                    <small class="text-muted text-uppercase font-weight-bold"> Кол-во входящих
+                                        обращений </small>
+                                    <div class="progress progress-xs my-3 mb-0">
+                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"
+                                             class="progress-bar bg-warning" style="width: 25%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body"><!---->
+                                    <div class="h4 mb-0">5:34:11</div>
+                                    <small class="text-muted text-uppercase font-weight-bold"> Не учтено часов (не
+                                        оплачивается) </small>
+                                    <div class="progress progress-xs my-3 mb-0">
+                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25"
+                                             class="progress-bar bg-danger" style="width: 25%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <header class="card-header">
+                                        Список нарущений и обращений
+                                    </header>
+                                    <div class="card-body">
+                                        <div data-v-c2da5fea="" bordered="true" small="true"><!---->
+                                            <div data-v-c2da5fea="" class="position-relative table-responsive">
+                                                <table data-v-c2da5fea=""
+                                                       class="table table-striped b-table-fixed table-hover">
+                                                    <thead data-v-c2da5fea="">
+                                                    <tr data-v-c2da5fea="">
+                                                        <th data-v-c2da5fea="" class="">
+                                                            <div data-v-c2da5fea="" class="d-inline">Название
+                                                                нарушения
+                                                            </div><!----></th>
+                                                        <th data-v-c2da5fea="" class="">
+                                                            <div data-v-c2da5fea="" class="d-inline">Тип</div><!---->
+                                                        </th>
+                                                        <th data-v-c2da5fea="" class="">
+                                                            <div data-v-c2da5fea="" class="d-inline">Дата</div><!---->
+                                                        </th>
+                                                        <th data-v-c2da5fea="" class="">
+                                                            <div data-v-c2da5fea="" class="d-inline">Координаты</div>
+                                                            <!----></th>
+                                                        <th data-v-c2da5fea="" class="">
+                                                            <div data-v-c2da5fea="" class="d-inline">Статус</div><!---->
+                                                        </th>
+                                                    </tr><!----></thead>
+                                                    <tbody data-v-c2da5fea="" class="position-relative">
+                                                    <tr data-v-c2da5fea="">
+                                                        <td data-v-c2da5fea="" class=""> Название 1</td>
+                                                        <td data-v-c2da5fea="" class=""> Тип 1</td>
+                                                        <td data-v-c2da5fea="" class=""> Время 1</td>
+                                                        <td data-v-c2da5fea="" class=""> Координаты 1</td>
+                                                        <td data-v-c2da5fea="" class=""> Статус 1</td>
+                                                    </tr><!---->
+                                                    <tr data-v-c2da5fea="">
+                                                        <td data-v-c2da5fea="" class=""> Название 2</td>
+                                                        <td data-v-c2da5fea="" class=""> Тип 2</td>
+                                                        <td data-v-c2da5fea="" class=""> Время 2</td>
+                                                        <td data-v-c2da5fea="" class=""> Координаты 2</td>
+                                                        <td data-v-c2da5fea="" class=""> Статус 2</td>
+                                                    </tr><!---->
+                                                    <tr data-v-c2da5fea="">
+                                                        <td data-v-c2da5fea="" class=""> Название 3</td>
+                                                        <td data-v-c2da5fea="" class=""> Тип 3</td>
+                                                        <td data-v-c2da5fea="" class=""> Время 3</td>
+                                                        <td data-v-c2da5fea="" class=""> Координаты 3</td>
+                                                        <td data-v-c2da5fea="" class=""> Статус 3</td>
+                                                    </tr><!----><!----></tbody><!----></table><!----></div>
+                                            <nav data-v-c2da5fea="" aria-label="pagination" style="display: none;">
+                                                <ul class="pagination  justify-content-start">
+                                                    <li class="page-item disabled"><a aria-label="Go to first page"
+                                                                                      aria-disabled="true" href="#"
+                                                                                      target="_self" tabindex="-1"
+                                                                                      class="page-link disabled">«</a>
+                                                    </li>
+                                                    <li class="page-item disabled"><a aria-label="Go to previous page"
+                                                                                      aria-disabled="true" href="#"
+                                                                                      target="_self" tabindex="-1"
+                                                                                      class="page-link disabled">‹</a>
+                                                    </li><!---->
+                                                    <li class="active page-item"><a aria-label="Current page 1" href="#"
+                                                                                    target="_self"
+                                                                                    class="page-link c-page-link-number">
+                                                        1 </a></li><!---->
+                                                    <li class="page-item disabled"><a aria-label="Go to next page"
+                                                                                      aria-disabled="true" href="#"
+                                                                                      target="_self" tabindex="-1"
+                                                                                      class="page-link disabled">›</a>
+                                                    </li>
+                                                    <li class="page-item disabled"><a aria-label="Go to last page"
+                                                                                      aria-disabled="true" href="#"
+                                                                                      target="_self" tabindex="-1"
+                                                                                      class="page-link disabled">»</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-5"><h4 id="traffic" class="card-title mb-0">Traffic</h4>
+                                        <div class="small text-muted">November 2017</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-responsive-sm table-striped">
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                    <div class="text-value-lg">Группа техники 1</div>
+                                                    <small class="text-muted">ДКМ (ПМ+ТР), ДКМ (ПУ+ТР), ДКМ (ПЩ+ТР), ДКМ
+                                                        (ТР+ЖР), РТР</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Операция 1</div>
+                                                </th>
+                                                <th>
+                                                    <div class="text-value-lg">Таймбар операции</div>
+                                                    <small class="text-muted">Снижается объем по времени 1 сек = 10квм -
+                                                        объем</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Общее время</div>
+                                                    <small class="text-muted">На операцию план/факт</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Алармы по технике</div>
+                                                    <small class="text-muted">Кол-во</small></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="2">Улица 1</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="25" class="progress-bar"
+                                                             style="width: 25%;">25%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-success btn-sm btn-block">Ок
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Улица 2</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="35" class="progress-bar"
+                                                             style="width: 35%;">35%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                                                        Аларм
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Улица 3</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="55" class="progress-bar"
+                                                             style="width: 55%;">55%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                                                        Аларм
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-responsive-sm table-striped">
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                    <div class="text-value-lg">Группа техники 1</div>
+                                                    <small class="text-muted">ДКМ (ПМ+ТР), ДКМ (ПУ+ТР), ДКМ (ПЩ+ТР), ДКМ
+                                                        (ТР+ЖР), РТР</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Операция 2</div>
+                                                </th>
+                                                <th>
+                                                    <div class="text-value-lg">Таймбар операции</div>
+                                                    <small class="text-muted">Снижается объем по времени 1 сек = 10квм -
+                                                        объем</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Общее время</div>
+                                                    <small class="text-muted">На операцию план/факт</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Алармы по технике</div>
+                                                    <small class="text-muted">Кол-во</small></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="2">Улица 1</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="25" class="progress-bar"
+                                                             style="width: 25%;">25%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-success btn-sm btn-block">Ок
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Улица 2</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="35" class="progress-bar"
+                                                             style="width: 35%;">35%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                                                        Аларм
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Улица 3</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="55" class="progress-bar"
+                                                             style="width: 55%;">55%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                                                        Аларм
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table table-responsive-sm table-striped">
+                                            <thead>
+                                            <tr>
+                                                <th>
+                                                    <div class="text-value-lg">Группа техники 1</div>
+                                                    <small class="text-muted">ДКМ (ПМ+ТР), ДКМ (ПУ+ТР), ДКМ (ПЩ+ТР), ДКМ
+                                                        (ТР+ЖР), РТР</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Операция 3</div>
+                                                </th>
+                                                <th>
+                                                    <div class="text-value-lg">Таймбар операции</div>
+                                                    <small class="text-muted">Снижается объем по времени 1 сек = 10квм -
+                                                        объем</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Общее время</div>
+                                                    <small class="text-muted">На операцию план/факт</small></th>
+                                                <th>
+                                                    <div class="text-value-lg">Алармы по технике</div>
+                                                    <small class="text-muted">Кол-во</small></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="2">Улица 1</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="25" class="progress-bar"
+                                                             style="width: 25%;">25%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-success btn-sm btn-block">Ок
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Улица 2</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="35" class="progress-bar"
+                                                             style="width: 35%;">35%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                                                        Аларм
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Улица 3</td>
+                                                <td>
+                                                    <div class="progress mb-3" style="height: 28px;">
+                                                        <div role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                                                             aria-valuenow="55" class="progress-bar"
+                                                             style="width: 55%;">55%
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>Время на улицу / план</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                                                        Аларм
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>
+</body>
+</html>
