@@ -9,6 +9,58 @@
     <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
 
     <title>Hello, world!</title>
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 20%;
+        }
+
+        .modal-text {
+            font-size: 20px;
+        }
+
+        .modal-image {
+            margin: auto;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #000;
+            right: 0;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body class="app">
 
@@ -23,7 +75,6 @@
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.min.js"></script>
-
 
 <noscript>
     <strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to
@@ -277,8 +328,8 @@
                                                 </td>
                                                 <td>Время на улицу / план</td>
                                                 <td>
-                                                    <button type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#exampleModal">
-                                                        Аларм123
+                                                    <button id="myBtn" type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#exampleModal">
+                                                        Аларм
                                                     </button>
                                                 </td>
                                             </tr>
@@ -468,32 +519,24 @@
             </main>
         </div>
     </div>
+</div>
 
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-    </button>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
+    <!-- Modal content -->
+    <div class="modal-content">
+        <h3>Нарушение скоростного режима</h3>
+        <hr align="center" width="100%" size="2" />
+        <p class="modal-text">Был нарушен скоростной режим</p>
+        <br>
+        <img class="modal-image" src="https://sun9-25.userapi.com/c858132/v858132245/109510/p3qvi-M9XVo.jpg" width="200px" alt="">
+
+        <span class="close" style="float: right">Закрыть</span>
     </div>
 </div>
 </body>
 <script type="text/javascript" src="companies.js"></script>
+<script type="text/javascript" src="modal.js"></script>
+
 </html>
